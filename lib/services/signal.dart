@@ -2,7 +2,7 @@ import 'dart:developer';
 import 'package:socket_io_client/socket_io_client.dart';
 
 
-const String socketUrl = 'wss://loaclhost:8088';
+const String socketUrl = 'wss://localhost:8088';
 class SignalService {
   // instance of Socket
   Socket? socket;
