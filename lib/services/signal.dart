@@ -2,7 +2,7 @@ import 'dart:developer';
 import 'package:socket_io_client/socket_io_client.dart';
 
 
-const String socketUrl = 'wss://d1a6-105-163-2-62.ngrok-free.app';
+const String socketUrl = 'wss://www.example.com/socketserver';
 class SignalService {
   // instance of Socket
   Socket? socket;
